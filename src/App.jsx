@@ -1,9 +1,12 @@
+import { BrowserRouter as Router } from "react-router-dom";
+import AppRoutes from "./routes/AppRoutes";
+
 function App() {
   return (
-    <div>
-      Adarsh&apos;s Boiler Page
-    </div>
-  )
+    <Router>
+      <AppRoutes />
+    </Router>
+  );
 }
 
-export default App
+export default App;
